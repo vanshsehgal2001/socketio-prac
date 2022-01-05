@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap");
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-join {
+  height: 60%;
+  width: 40%;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: lightseagreen;
+}
+
+.home-heading-h1 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 100px;
+}
+
+.home-heading-h3 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 40px;
+}
+
+.home-input {
+  width: 70%;
+  outline: none;
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  margin: 20px;
+  background: lightgreen;
+  /* border: 1px solid black; */
+}
+
+.home-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.join-btn {
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  width: 70%;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  font-family: "Epilogue", sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}

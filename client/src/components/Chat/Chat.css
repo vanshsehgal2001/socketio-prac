@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap");
+
+.chat-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 90%;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 10px;
+  border-radius: 20px;
+}
+
+.chat-heading {
+  background-color: rgba(220, 20, 60, 0.7);
+  border-radius: 20px 20px 0px 0px;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Epilogue", sans-serif;
+}
+
+.chat-heading div {
+  margin-left: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: lightpink;
+  /* flex: 1; */
+  /* text-align: center; */
+}
+
+.chat-heading i {
+  margin-right: 10px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+}
+
+.chat-heading i:hover {
+  transform: scale(1.2);
+}
+
+.chat-messages {
+  height: 75%;
+  box-sizing: border-box;
+}
+
+.chat-input {
+  background-color: lightseagreen;
+  height: 15%;
+  border-radius: 0px 0px 20px 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.chat-input i {
+  font-size: 40px;
+  transition: 0.6s all ease-in-out;
+}
+
+.chat-input i:hover {
+  transform: translate(5px, -5px);
+}
+
+.chat-input textarea {
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 8px;
+  resize: none;
+  background-color: lightcoral;
+  font-weight: bold;
+  border-radius: 0px 0px 0px 20px;
+  font-family: "Epilogue", sans-serif;
+}
+
+.chat-input button {
+  width: 20%;
+  background-color: rgba(220, 20, 60, 1);
+
+  border: none;
+  outline: none;
+  border-radius: 0px 0px 20px 0px;
+  cursor: pointer;
+  font-family: "Epilogue", sans-serif;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+
+  background: crimson;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background: #b30000;
+}
